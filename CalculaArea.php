@@ -8,7 +8,7 @@
         } elseif ($num == 1){
             return $area;
         } else {
-            for($multiplicador = 1; $multiplicador < $num; $multiplicador++){
+            for($multiplicador = 1, $multiplicador < $num, $multiplicador++){
                 $numeroAdicional = $numeroAdicional * $multiplicador;
                 $area += $numeroAdicional;
             }
