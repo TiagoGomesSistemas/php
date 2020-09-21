@@ -1,5 +1,5 @@
 <?php
-    function calculaArea ($num)
+    function CalculaArea ($num)
     {
         $area = 1;
         $numeroAdicional = 4;
