@@ -1,7 +1,7 @@
 <?php
     function seculoAno ($ano)
     {
-        return $ano /100 -1
+        return $ano /100 -1;
     }
 ?>
 
